@@ -18,7 +18,7 @@ npm i redux-persist-sqlite
 // configureStore.ts
 import { createStore } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
-import { SQLiteAdapter }  from 'redux-persist-sqlite-storage';
+import { SQLiteAdapter }  from 'redux-persist-sqlite';
 
 const yourDbName = 'redux-persist.db';
 const pathToYourDB = path.join(process.cwd(), yourDbName);
