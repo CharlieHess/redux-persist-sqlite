@@ -8,15 +8,17 @@ Great for Electron apps that are backed by Redux.
 
 ## install
 
-npm i redux-persist-sqlite-storage
+```
+npm i redux-persist-sqlite
+```
 
 ## usage
 
 ``` typescript
 // configureStore.ts
-import { createStore } from 'redux'
-import { persistStore, persistReducer } from 'redux-persist'
-import { SQLiteAdapter }  from 'redux-persist-sqlite-storage'
+import { createStore } from 'redux';
+import { persistStore, persistReducer } from 'redux-persist';
+import { SQLiteAdapter }  from 'redux-persist-sqlite-storage';
 
 const yourDbName = 'redux-persist.db';
 const pathToYourDB = path.join(process.cwd(), yourDbName);
