@@ -1,0 +1,40 @@
+{
+  "name": "redux-persist-sqlite",
+  "version": "1.0.0",
+  "description": "A redux-persist storage adapter that writes to sqlite",
+  "files": [
+    "/lib"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "tsc -p tsconfig.json",
+    "build": "npm run clean && npm run compile",
+    "clean": "rimraf lib",
+    "prepare": "npm run build",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieHess/redux-persist-sqlite.git"
+  },
+  "keywords": [
+    "sqlite",
+    "redux-persist",
+    "storage"
+  ],
+  "author": "Charlie Hess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlieHess/redux-persist-sqlite/issues"
+  },
+  "homepage": "https://github.com/CharlieHess/redux-persist-sqlite#readme",
+  "dependencies": {
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "@types/sqlite3": "^3.1.4",
+    "rimraf": "^2.6.3",
+    "standard-version": "^5.0.1",
+    "typescript": "^3.3.3333"
+  }
+}
