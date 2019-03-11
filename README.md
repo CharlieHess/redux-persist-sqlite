@@ -1,4 +1,4 @@
-# redux-persist-sqlite-storage
+# redux-persist-sqlite
 
 A redux-persist storage adapter that writes to [sqlite](https://github.com/mapbox/node-sqlite3).
 
